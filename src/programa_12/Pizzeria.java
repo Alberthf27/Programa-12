@@ -18,6 +18,7 @@ public class Pizzeria {
         for (int i = 0; i < pizza.adicionales.size(); i++) {
             System.out.println(pizza.adicionales.get(i));
         }
+        System.out.println("");
 
         pizza.preparar();
         pizza.cortar();
